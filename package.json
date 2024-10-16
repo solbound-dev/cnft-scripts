@@ -3,12 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "create-merkle-tree": "ts-node scripts/create-merkle-tree.ts",
-    "create-core-collection": "ts-node scripts/create-core-collection.ts",
-    "create-pnft-collection": "ts-node scripts/create-pnft-collection.ts",
-    "airdrop-cnfts": "ts-node scripts/airdrop-cnfts.ts",
-    "change-cnft-metadata": "ts-node scripts/change-cnft-metadata.ts"
+    "create-merkle-tree": "ts-node src/scripts/create-merkle-tree.ts",
+    "create-pnft-collection": "ts-node src/scripts/create-pnft-collection.ts",
+    "airdrop-cnfts": "ts-node src/scripts/airdrop-cnfts.ts",
+    "change-cnft-metadata": "ts-node src/scripts/change-cnft-metadata.ts"
   },
   "keywords": [],
   "author": "",
